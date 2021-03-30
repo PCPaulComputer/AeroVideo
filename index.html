@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paul Madduma">
+    <meta name="description" content="homepage for AeroVideo blogs about videos taken above the ground.">
+    <meta name="keywords" content="aerial photographs, pictures and videos from the sky above">
+    <title>AeroVideo Inc.</title>
+    <!-- SITE STYLES -->
+    <link href="css/aerovideostyles.css" rel="stylesheet" type="text/css">
+    <!-- RESET STYLES -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/aerovideologo.png">
+    <!--FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0d06c8866c.js" crossorigin="anonymous"></script>
+    <!--jquery core -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!--fitvids -->
+    <script src="js/jquery.fitvids.js"></script>
+    <!--fitvids hookup -->
+    <script>
+        $(document).ready(function() {
+            // Target your .container, .wrapper, .post, etc.
+            $(".containerVideo").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <main id="container">
+        <div class ="mainTitle">
+            <h1 class="center-text" id="top"><i class="fas fa-photo-video"></i>     AeroVideo     <i class="fas fa-photo-video"></i></h1>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="urban.html">Urban</a></li>
+                <li><a href="land.html">Land</a></li>
+                <li><a href="water.html">Water</a></li>
+            </ul>
+        </nav>
+        <header id="mainPageHeader" class="mainHeader"> 
+        </header>
+        <h1 class="center-text">The Sky Is The Limit</h1>
+        <div class="containerVideo">
+            <iframe src="https://www.youtube.com/embed/B90H-8xetBs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        </div>
+        <hr>
+        <section>
+            <h2 class="center-text">Environment Scene</h2>
+            <p id="description">Here at AeroVideo, we present aerial videos that are breathtaking.<br> Taking videos from the sky above has always been give a sense of adventure.<br>
+                Adrenaline from flying but seeing the landscapes and waterscapes in the sky is beautiful.</p>
+            <br>
+            <div class="video-frame">
+                <video width="600" height="400" controls>
+                    <source src="video/video_air.mp4" type="video/mp4">
+                    <source src="video/video_air.webm" type="video/webm">
+                    <source src="video/video_air.ogv" type="video/ogg">
+                </video>
+            </div>
+        </section>
+        <hr>
+
+        <section class="content">
+            <h2 class="center-text">Featuring</h2>
+            <div class="clear"></div>
+            <section class="row">
+                <section class="col13 fl card">
+                    <a href="urban.html" target="_blank">
+                        <img src="images/urban_header_image.jpg" alt="City skyline" class="responsive-image label-more">
+                    </a>
+                    <h3 class="center-text"><a href="urban.html" target="_blank">Urban</a></h3>
+                    <p>Welcome to the Hustle of the Urban Land where you check out streets and activities around the city. There's more than fast paced of the city: its the enriched culture of people of different walks of life understanding unity and peace. Art must be committed with compassion and delivery with humanistic approach. Loving the culture and the spirit keep your optimism up. </p>
+                </section>
+                <section class="col13 fl card">
+                    <a href="land.html" target="_blank">
+                        <img src="images/land_header_image.jpg" alt="Landscape style" class="responsive-image label-more">
+                    </a>
+                    <h3 class="center-text"><a href="land.html" target="_blank">Land</a></h3>
+                    <p>Land of the morning. Where is the sunrise and the sunset. I've been wanting to know the solar light provides warmth during this time. Solar electricity and other sustainable technology is on to implement good services that are geared towards the needs and wants of many dreamers who wants to achiever their goals. Success in the land is protecting the Eart and be a responsible citizen with kindness.</p>
+                </section>
+                <section class="col13 fl card">
+                    <a href="water.html" target="_blank">
+                        <img src="images/water_header_image.jpg" alt="Aquamarine image style" class="responsive-image label-more">
+                    </a>
+                    <h3 class="center-text"><a href="water.html" target="_blank">Water</a></h3>
+                    <p>I clean thoroughly by wash my hands after going outside. The summer provides plenty of opportunities. Fresh water from the lakes and the river are important and therefore should be taken responsibly. Climate changes according to season and the seasons of the sunny sun gave us that chance to grow creativity and art formation. Musicality on the rhythms and jamming in the blues clue while true infinite loop and break with conditions.</p>
+                </section>
+            </section>
+            <div class="clear"></div>
+        </section>
+         <p class="center-text"><a href="#top">Back To Top</a></p>
+         <footer id="mainFooter">
+            <p>&copy; 2020 AeroVideo Inc. </p>
+        </footer>
+    </main>
+</body></html>

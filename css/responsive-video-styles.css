@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*GLOBAL*/
+
+body {
+	font-family:Arial;
+}
+
+.container {
+	width:50%;
+}
